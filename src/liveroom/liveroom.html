@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <link rel="import" href="/pub/res.html?__inline">
+    <link type="text/css" href="./liveroom.css" rel="stylesheet" />
+</head>
+<body>
+<div class="wrapper">
+    <div class="liveRoomPage">
+        <h1>《步步为银》直播室</h1>
+        <div class="hd clearfix">
+            <div class="imgBox">
+                <img src="/images/people.jpg" class="header" alt=""/>
+                <p class="name tc">戴育成</p>
+            </div>
+            <div class="viewText">
+                <span class="title">今日视点</span>
+                <p class="text">
+                    开年以来，50万战队首席申玲芝老师提示的个股仅3只，但涨幅却很惊人！<br/>
+                    截至目前，“南京银行”涨幅15.12%！“方大特钢”涨幅23.45%！
+                </p>
+                <div class="bBar clearfix">
+                    <span class="dt fl">2018-03-06 11:22</span>
+                    <div class="actionBox fr">
+                        <div class="action">
+                            <i class="iconfont icon-praise-o"></i>
+                            <span class="iconTxt">点赞</span>
+                        </div>
+                        <div class="action">
+                            <i class="iconfont icon-star-o"></i>
+                            <span class="iconTxt">收藏</span>
+                        </div>
+                        <div class="action j_askBtn">
+                            <i class="iconfont icon-question"></i>
+                            <span class="iconTxt">提问</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bd">
+            <div class="listBox j_listBox">
+                
+            </div>
+        </div>
+        <div class="ft">
+            <div class="ftBar">
+                <span class="barItem">只看TA</span>
+                <span class="barItem">跳转至</span>
+                <span class="barItem">服务表</span>
+            </div>
+        </div>
+        <div class="popBox none j_popBox">
+            <div class="innerBox">
+                <textarea class="question" placeholder="编辑内容："></textarea>
+                <div class="btnBox tr">
+                    <button class="ui-btn ui-btn-primary sendMsg j_sendMsg">点击发送</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/html" id="listTpl">
+{{each}}
+<div class="listItem">
+    <div class="itemBox">
+        <p class="text">{{$value.text}}</p>
+        <div class="bBar clearfix">
+            <span class="dt fl">{{$value.dt}}</span>
+            <div class="actionBox fr">
+                <div class="action">
+                    <i class="iconfont icon-praise-o"></i>
+                    <span class="iconTxt">点赞</span>
+                </div>
+                <div class="action">
+                    <i class="iconfont icon-star-o"></i>
+                    <span class="iconTxt">收藏</span>
+                </div>
+                <div class="action j_askBtn">
+                    <i class="iconfont icon-question"></i>
+                    <span class="iconTxt">提问</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{/each}}
+</script>
+<script src="./liveroom.js"></script>
+</body>
+</html> 

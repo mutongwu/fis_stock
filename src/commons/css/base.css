@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "FZHei-B01S","Microsoft YaHei","Arial",sans-serif;
+}
+a,a:active,a:visited{
+  color:#000;
+}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.tc{text-align: center;}
+.tr{text-align: right;}
+.fl{float: left;}
+.fr{float: right;}
+.none{display: none;}

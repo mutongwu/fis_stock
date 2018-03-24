@@ -1,0 +1,32 @@
+.profilePage .hd{
+    padding: 0.5rem;
+    overflow: hidden;
+    background: #0a00df;
+    color: #fff;
+    height:2rem;
+}
+.profilePage .hd .imgBox{
+    width: 2.3rem;
+    float: left;
+}
+.profilePage .hd .imgBox .header{
+    width: 1.8rem;
+    height: 1.8rem;
+    border-radius: 50%;
+    border:3px solid #fff;
+}
+.profilePage .hd .info{
+    padding-top: 0.5rem;
+}
+.profilePage .hd .info .name{
+    font-size: 16px;
+}
+.profilePage .bd .listBox{
+    margin-top: 0.45rem;
+}
+.profilePage .bd .listBox .icon{
+    font-size: 36px;
+    color: #0a00df;
+    position: relative;
+    top: -8px;
+}

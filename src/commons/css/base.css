@@ -6,9 +6,29 @@ body {
 a,a:active,a:visited{
   color:#000;
 }
+img{max-width: 100%;}
 .clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
 .tc{text-align: center;}
 .tr{text-align: right;}
 .fl{float: left;}
 .fr{float: right;}
 .none{display: none;}
+
+.topNavBar {
+  background: #0a00df;
+  padding: 0.4rem 0.4rem 0.1rem;
+}
+.topNavBar .ui-header{
+  position: relative;
+  height: 45px;
+  line-height: 45px;
+}
+.topNavBar .ui-header h1{
+  color: #fff;
+}
+.topNavBar .iconfont.icon-back{
+  position: absolute;
+  left: 0;
+  font-size: 24px;
+  color: #fff;
+}

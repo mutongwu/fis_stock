@@ -5,10 +5,10 @@ fis.match('*.jsp', {
     isHtmlLike:true
 });
 
-// fis.match('*.scss', {
-//     parser: fis.plugin('node-sass'),
-//     rExt: '.css'
-// });
+fis.match('*.scss', {
+    parser: fis.plugin('node-sass'),
+    rExt: '.css'
+});
 
 
 fis.match('/commons/iconfont/*', {

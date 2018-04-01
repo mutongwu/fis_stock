@@ -1,0 +1,24 @@
+.levelPage {
+    padding-bottom: 1rem;
+    .hd .topTeam{
+        margin: 0.3rem 0;
+        background: #4156f3;
+        .ui-nowrap{color: #fff;}
+        p.ui-nowrap{opacity: 0.6;}
+        li{
+            position: relative;
+            .iconfont{
+                position: absolute;
+                top: 50%;
+                margin-top: -14px;
+                right: 0.5rem;
+                font-size: 20px;
+                color: #fff;
+            }
+        }
+    }
+    .ui-border-t{padding-left:0.8rem;}
+    .ui-list-link>li:after{
+        right: 0.6rem;
+    }
+}

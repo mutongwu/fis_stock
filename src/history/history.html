@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <link rel="import" href="/pub/res.html?__inline">
+    <link type="text/css" href="./history.scss" rel="stylesheet" />
+</head>
+<body>
+<div class="wrapper">
+    <div class="topNavBar">
+        <header class="ui-header">
+            <i class="icon iconfont icon-back" onclick="history.back()"></i>
+            <h1>历史交易计划</h1>
+        </header>
+    </div>
+    <div class="historyPage">
+        <div class="dataTableBox expanded">
+            <table class="dataTable">
+                <thead>
+                    <tr>
+                        <th>老师</th><th>品种</th><th>买入<br/>卖出</th><th>委托<br/>类型</th>
+                        <th>点仓</th><th>仓位</th><th>止盈</th><th>止损</th>
+                        <th>备注</th><th>平仓<br/>详情</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="sep"><td colspan="10"></td></tr>
+                    <tr>
+                        <td class="name">
+                            <img src="../images/people.jpg" alt="" class="pic" />
+                            <div>许华加</div>
+                            <div class="dt">2018-02-09</div>
+                            <div class="dt">19:22:25</div>
+                        </td>
+                        <td>白银现货排期</td>
+                        <td>
+                            <span class="actionType red">买入建仓</span>
+                        </td>
+                        <td>市价</td>
+                        <td>3464</td>
+                        <td>三成仓</td>
+                        <td>1235</td>
+                        <td>6732</td>
+                        <td class="bz"><p class="longTxt">一大段一大段文字一大段文字一大段文字一大段文字一大段文字一大段文字一
+                            大段文字一大段文字文字大段文字一大段文字文字大段文字一大段文字文字
+                            大段文字一大段文字文字大段文字一大段文字文字大段文字一大段文字文字</p></td>
+                        <td><span class="actionType grey">未平仓</span></td>
+                    </tr>
+                    <tr class="sep"><td colspan="10"></td></tr>
+                    <tr>
+                        <td class="name">
+                            <img src="../images/people.jpg" alt="" class="pic" />
+                            <div>许华加</div>
+                            <div class="dt">2018-02-09</div>
+                            <div class="dt">19:22:25</div>
+                        </td>
+                        <td>白银现货排期</td>
+                        <td>
+                            <span class="actionType green">卖出建仓</span>
+                        </td>
+                        <td>市价</td>
+                        <td>3464</td>
+                        <td>三成仓</td>
+                        <td>1235</td>
+                        <td>6732</td>
+                        <td class="bz"><p class="longTxt">一大段一大段文字一大段文字一大段文字一大段文字一大段文字一大段文字一
+                            大段文字一大段文字文字大段文字一大段文字文字大段文字一大段文字文字
+                            大段文字一大段文字文字大段文字一大段文字文字大段文字一大段文字文字</p></td>
+                        <td><a><span class="actionType blue">查看平仓</span></a></td>
+                    </tr>
+                    <tr class="sep"><td colspan="10"></td></tr>
+                    <tr>
+                        <td class="name">
+                            <img src="../images/people.jpg" alt="" class="pic" />
+                            <div>许华加</div>
+                            <div class="dt">2018-02-09</div>
+                            <div class="dt">19:22:25</div>
+                        </td>
+                        <td>白银现货排期</td>
+                        <td>
+                            <span class="actionType green">卖出建仓</span>
+                        </td>
+                        <td>市价</td>
+                        <td>3464</td>
+                        <td>三成仓</td>
+                        <td>135</td>
+                        <td>69732</td>
+                        <td class="bz"><p class="longTxt">一大段一大段文字一大段文字一大段文字一大段文字一大段文字一大段文字一
+                            大段文字一大段文字文字大段文字一大段文字文字大段文字一大段文字文字
+                            大段文字一大段文字文字大段文字一大段文字文字大段文字一大段文字文字</p></td>
+                        <td><a><span class="actionType blue">查看平仓</span></a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+    </div>
+</div>
+<script src="./history.js"></script>
+</body>
+</html> 

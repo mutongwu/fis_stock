@@ -11,11 +11,13 @@
     margin: 0;
 }
 .liveRoomPage .hd{
+    position: relative;
     border-top: 3px solid #ccc;
     border-bottom: 3px solid #ddd;
     color: #fff;
     background: #001eef;
-    height: 2.9rem;
+    /*height: 2.9rem;*/
+    padding-bottom: 0.8rem;
     margin-bottom: 0.1rem;
 }
 .liveRoomPage .hd .imgBox{
@@ -30,11 +32,8 @@
     border:1px solid #fff;
 }
 .liveRoomPage .hd .viewText{
-    
-    position: relative;
     height: 100%;
     margin-left:2.7rem;
-    
 }
 .liveRoomPage .hd .viewText .title{
     display: inline-block;
@@ -55,12 +54,17 @@
     opacity: 0.9;
     zoom: 0.9;
 }
+.liveRoomPage .hd .viewMore{
+    opacity: 0.5;
+}
 .liveRoomPage .bBar{
     position: absolute;
     width: 100%;
     bottom:0;
-    left: 0;
+    left:0;
+    padding-left: 2.7rem;
     opacity: 0.5;
+    box-sizing: border-box;
 }
 .liveRoomPage .bBar .dt{
     margin-top: 0.3rem;
@@ -95,6 +99,9 @@
     line-height: 150%;
     font-size:0.3rem;
     margin: 0;
+}
+.liveRoomPage .listItem .bBar{
+    padding-left: 0;
 }
 .liveRoomPage .listItem .bBar .actionBox{
     margin-right: 0;

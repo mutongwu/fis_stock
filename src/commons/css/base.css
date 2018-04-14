@@ -17,6 +17,7 @@ img{max-width: 100%;}
 .topNavBar {
   background: #0a00df;
   padding: 0.4rem 0.4rem 0.1rem;
+  text-align: center;
 }
 .topNavBar .ui-header{
   position: relative;
@@ -31,4 +32,60 @@ img{max-width: 100%;}
   left: 0;
   font-size: 24px;
   color: #fff;
+}
+.topNavBar .navBtnBox{
+  position: relative;
+  top:8px;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  display: inline-block;
+  line-height: 24px;
+}
+.topNavBar .navBtnBox .item{
+  position: relative;
+  display: inline-block;
+  float:left;
+  padding:2px;
+  border:1px solid #fff;
+}
+.topNavBar .navBtnBox .dot{
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  line-height: 1em;
+  overflow: hidden;
+  right: -0.5em;
+  top: -0.5em;
+  border-radius: 50%;
+  background: #f00;
+  color: #fff;
+  zoom: 0.8;
+}
+.topNavBar .navBtnBox .item:first-of-type{
+  border-radius: 8px 0 0 8px;
+}
+.topNavBar .navBtnBox .item:last-of-type{
+  border-radius:  0 8px 8px 0;
+}
+.topNavBar .navBtnBox .item.active{
+  background: #fff;
+  color: #0a00df;
+}
+.dataTable{
+  width: 100%;
+  border-collapse: collapse;
+  vertical-align: middle;
+  text-align: center;
+}
+.dataTable thead th{
+  white-space: nowrap;
+  text-align: center;
+}
+.dataTableBox{
+  width: 100%;
+  overflow-x: auto;
+}
+.dataTableBox.expanded .dataTable{
+  width: 150%;
 }

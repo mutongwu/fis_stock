@@ -16,5 +16,7 @@ $(function(){
         $page.find('.j_popBox').show();
     }).on('click','.j_sendMsg', function(){
         $page.find('.j_popBox').hide();
+    }).on('click', '.j_viewMore', function(){
+        $(this).hide().siblings('.moreText').removeClass('none');
     });
 })

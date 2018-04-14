@@ -1,8 +1,13 @@
 <div class="bottomMenu">
     <ul class="ui-tiled">
-        <li><a href="/index.html"><i class="icon iconfont icon-money"></i><div class="name">交易计划</div></a> </li>
-        <li><a href="/liveroom/liveroom.html"><i class="icon iconfont icon-live-broadcast"></i><div class="name">直播</div></a> </li>
-        <li><a href="/profile/profile.html"><i class="icon iconfont icon-group"></i><div class="name">圈子</div></a> </li>
+        <li><a href="/index.html" class="menuItem active"><i class="icon iconfont icon-money"></i><div class="name">交易计划</div></a> </li>
+        <li><a href="/liveroom/liveroom.html" class="menuItem">
+            <i class="icon iconfont icon-live-broadcast"></i><div class="name">直播</div>
+            <i class="dot">8</i>
+            </a>
+        </li>
+        <li><a href="/profile/profile.html" class="menuItem"><i class="icon iconfont icon-group"></i><div class="name">圈子</div></a> </li>
+        <li><a href="" class="menuItem"><i class="icon iconfont icon-user"></i><div class="name">我的</div></a> </li>
     </ul>
 </div>
 <style>
@@ -14,5 +19,33 @@
         height: 1rem;
         z-index: 10;
         background: #fff;
+    }
+    .bottomMenu .menuItem{
+        display: block;
+        position: relative;
+        top: 8px;
+        line-height: 1;
+    }
+    .bottomMenu .menuItem .name{
+        padding-top:3px;
+    }
+    .bottomMenu .menuItem.active{
+        color: #0a00df
+    }
+    .bottomMenu .menuItem .dot{
+        position: absolute;
+        z-index: 2;
+        display: block;
+        text-align: center;
+        width: 14px;
+        height: 14px;
+        line-height: 16px;
+        overflow: hidden;
+        right: -0.5em;
+        top: 0;
+        border-radius: 100%;
+        background: #f00;
+        color: #fff;
+        zoom: 0.8;
     }
 </style>

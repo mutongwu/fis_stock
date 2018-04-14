@@ -1,0 +1,51 @@
+.historyPage{
+    .dataTableBox{padding-top:0.35rem;}
+    .dataTable{
+        font-size: 12px;
+        .pic{width: 0.54rem;height: 0.54rem;border-radius: 50%;}
+        .longTxt,.dt{
+            zoom:0.9;
+        }
+        .longTxt{
+            padding:0.3rem 0;
+        }
+        tr{background: #fff;}
+        tr.sep{background: #d6d6d6;
+            td{height:0.15rem;}
+        }
+        td{
+            width: 0.8rem;
+        }
+        td.name{
+            width: 1.2rem;
+        }
+        td.bz{
+            width: 1.5rem;
+        }
+        .actionType{
+            display: inline-block;
+            line-height: 1;
+            word-break: break-all;
+            width: 2em;
+            padding:0.1rem 0.2rem;
+            border-radius: 8px;
+            color: #fff;
+            &.red{
+                background: #f00;
+            }
+            &.green{
+                background: #009d42;
+            }
+            &.grey{
+                background: #c1c1c1;
+                width: 3em;
+                padding:0.26rem 0.1rem;
+            }
+            &.blue{
+                border:1px solid blue;
+                color: blue;
+            }
+        }
+    }
+    
+}
